@@ -111,7 +111,7 @@ client.on('message', message => {
             .addField('**البرفكس :**' , `&` , true)
             .addField('**الأشخاص 🔮 :**' ,`[ ${client.users.size} ]` , true)
             .addField('**اسم البوت 🔰 :**' , `[ ${client.user.tag} ]` , true)
-            .addField('*صاحب البوت 👑 :**' , `[<@514168859805089815>] - مخصص الي __**root**__`` , true)
+            .addField('*صاحب البوت 👑 :**' , `[<@514168859805089815>] - مخصص الي __**root**__` , true)
             .setFooter(message.author.username, message.author.avatarURL)
     })
 }
