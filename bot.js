@@ -97,7 +97,7 @@ client.on("message", (message) => {
 //--
 
 client.on('message', message => {
-    if (message.content === ('*info')) {
+    if (message.content === ('&info')) {
     message.channel.send({
         embed: new Discord.RichEmbed()
             .setAuthor(client.user.username,client.user.avatarURL)
@@ -110,7 +110,7 @@ client.on('message', message => {
             .addField('**البرفكس :**' , `&` , true)
             .addField('**الأشخاص 🔮 :**' ,`[ ${client.users.size} ]` , true)
             .addField('**اسم البوت 🔰 :**' , `[ ${client.user.tag} ]` , true)
-            .addField('** صاحب البوت 👑 :**' , `__**root**__مخصص الي  - [<@514168859805089815>] ` , true)
+            .addField('** صاحب البوت 👑 :**' , `__**root**__ مخصص الي  - [<@514168859805089815>] ` , true)
             .setFooter(message.author.username, message.author.avatarURL)
     })
 }
